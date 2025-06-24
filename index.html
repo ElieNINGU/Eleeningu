@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Elee NINGU</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Elee NINGU</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="Mr-E.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Bonjour à tous, je suis</p>
+        <h1 class="title">Elee NINGU</h1>
+        <p class="section__text__p2">Etudiant en multimédias et communication digitale</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('Elee.pdf')"
+          >
+            Télécharger le CV
+          </button>
+          
+        </div>
+        <div id="socials-container">
+          <img
+            src="linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/elie-ningu-b15ba62a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app/'"
+          />
+          <img
+            src="behance.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.behance.net/gallery/228394709/Portfolio-Numrique/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">En savoir plus</p>
+      <h1 class="title">A propos de moi</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="Elee.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ années <br />En communication</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="Upl.jpg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Formation</h3>
+              <p> Diplome Bac+3 en MCD<br />Sciences de l'information et de la communication
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Bonjour à tous, je m'appelle Elee NINGU. 
+              Je suis passionné par plusieurs domaines, notamment l'audiovisuel, 
+              la musique, l'écriture, la prise de parole en public, le management,
+              la conception graphique et la cinématographie. 
+              Actuellement, je poursuis des études en sciences de l'information et
+              de la communication, avec une spécialisation en multimédia et communication
+              digitale. Ce parcours me permet d'allier mes intérêts artistiques et mes compétences techniques.
+
+              Je suis une personne calme, créative et adaptable, ce qui m'aide à rester concentré et à aborder 
+              les défis avec sérénité.
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explorez</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">En Freelance</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.png" 
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>conception graphique</h3>
+                  <p>Niveau moyen</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Modélisation 3D</h3>
+                  <p>Niveau moyen</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Animation</h3>
+                  <p>Niveau moyen</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Création des apps</h3>
+                  <p>Niveau basique</p>
+                </div>
+              </article>
+              <article>
+                
+               
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Logiciels utilisés</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="premiere.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Premiere pro</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="illustrator.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Illustrator</h3>
+                  <p>Niveau moyen</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="photoshop.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Photoshop</h3>
+                  <p>Niveau avancé</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Blender 3D</h3>
+                  <p>Niveau moyen</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Projets récents</p>
+      <h1 class="title">Projets</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="LOGO-BLEU.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projet 01</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.behance.net/gallery/228394709/Portfolio-Numrique/'"
+              >
+                Behance
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.linkedin.com/posts/elie-ningu-b15ba62a9_activity-7343052090069438464-DyuS?utm_medium=ios_app&rcm=ACoAAEpkrMEBoZiX4l38oQLoEr7hDuu_aW7REUc&utm_source=social_share_send&utm_campaign=copy_link'"
+              >
+                LinkedIn
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="LOGO-ORANGE.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projet 02</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 projectu-btn"
+                onclick="location.href='https://www.instagram.com/p/DLQuYCGoe7i/?igsh=MTc4cjBpamYzdTBkOA==/'"
+              >
+                Instagram
+                 <button
+            class="btn btn-color-2"
+            onclick="window.open('projet.pdf')"
+          >
+            Télécharger le fichier
+          </button>
+          
+             
+            </div>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="LOGO-NOIR.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projet 03</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.facebook.com/share/1AgnxHhpmy/?mibextid=wwXIfr/'"
+              >
+                Facebook
+               <button
+            class="btn btn-color-2"
+            onclick="window.open('projetd.pdf')"
+          >
+            Télécharger le fichier
+          </button>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Contactez-moi</p>
+      <h1 class="title">Contact</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:elielningu@gmail.com">elielningu@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="phone.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">+243972224296</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Elee NINGU. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
